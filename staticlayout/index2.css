@@ -1,0 +1,16 @@
+body {
+    background-color: black;
+}
+
+header {
+    background-color:black;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+}
+
+li {
+    padding: 10px;
+}

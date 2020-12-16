@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 2160px;
+    background-size: contain;
+    background-color: black;
+    background-color: black;
+    background-image: url('https://lumiere-a.akamaihd.net/v1/images/background-stars-desktop_81342104.jpeg?region=0%2C0%2C2048%2C1153');
+    background-size: inherit;
+}
+
+.header {
+    background-color: black;
+}
+
+#nav-bar {
+    background-color: black;
+    position: absolute;
+    top: 8%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.left {
+    background-color: black;
+    float: left;
+    display: block;
+    width: auto;
+    height: 100px;
+    margin: 0;
+    position: relative;
+    top: 20%;
+
+}
+
+.center {
+    background-color: black;
+    position: relative;
+    top: 20%;
+    background-repeat: no-repeat;
+    background-image: url('https://static-mh.content.disney.io/starwars/assets/navigation/sw_logo_stacked-336c62367939.png');
+}
+
+.right {
+    border-radius: 5px;
+    background-color: #343434;
+    opacity: 0.7;
+}
+
+.nav-search-button {
+    width: 50px;
+    height: 40px;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    background-image: url(https://static-mh.content.disney.io/starwars/assets/navigation/icon_search-957a123fdb62.svg);
+    border: none;
+} 
+
+.nav-drawer {
+    background-color: black;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+}
+
+#section-links { 
+    display: flex;
+    flex-direction: row;
+}
+
+li a {
+    padding: 10px;
+    text-decoration: none;
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 13px;
+    font-size: 0.875rem;
+    font-weight: bolder;
+}
+
+#nav-search-input {
+    background-color: #343434;
+    border: 0;
+}
