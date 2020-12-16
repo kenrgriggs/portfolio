@@ -63,17 +63,32 @@ Note: If you would like to omit something on this list for any reason, please sp
     <header>
         <!-- CONTENT WILL GO HERE. Header will stay at top page, no scrolling -->
         <div class="head">
-            <h2>k e n n e t h g r i g g s </h2>
+            <div class="headerdiv">
+                <a href="https://kenrgriggs.github.io/portfolio/" class="headerlink"><h2 class="headertext">k e n n e t h g r i g g s</h2></a>
+            </div>
+            <div class="headerdiv">
+                <a href="#about-me" class="headerlink"><h4 class="headertext">about me</h4></a>
+            </div>
+            <div class="headerdiv">
+                <a href="#projects" class="headerlink"><h4 class="headertext">projects</h4></a>
+            </div>
+            <div class="headerdiv">
+                <a href="#social" class="headerlink"><h4 class="headertext">contact</h4></a>
+            </div>
+            <div class="headerdiv">
+                <a href="assets/resume_kgriggs13December2020.docx" class="headerlink"><h4 class="headertext" download>resume</h4></a>
+            </div>
         </div>
     </header>
 
     <!-- NAVBAR :: Navbar should be placed below header, but stick to top when scrolling -->
-
-    <nav class="navbar sticky-top navbar-dark bg-dark">
+<!-- 
+    <nav class="navbar sticky-top">
         <a class="navbar-brand" href="#"></a>
-        <button type="button" class="btn btn-primary"><a href="assets/resume_kgriggs13December2020.docx" class="downloadresume"
-                download>download resume</a></button>
-    </nav>
+        <button type="button" class="btn btn-primary"><a href="assets/resume_kgriggs13December2020.docx"
+                class="downloadresume" download>download resume</a></button>
+    </nav> 
+-->
 
     <section class="title">
         <!-- Place holder for stuff, might delete later -->
@@ -167,7 +182,9 @@ Note: If you would like to omit something on this list for any reason, please sp
                                         <h5 class="mt-0"></h5>
                                         I've been working several years in an IT support/administrator role at a FedRAMP
                                         complaint data center in Indianapolis, and have decided to improve my coding
-                                        skills through the ElevenFifty Academy Web Development Bootcamp. My hope is to take these coding skills and apply them to ongoing projects at work, as well as other programming lanaguages. 
+                                        skills through the ElevenFifty Academy Web Development Bootcamp. My hope is to
+                                        take these coding skills and apply them to ongoing projects at work, as well as
+                                        other programming lanaguages.
                                     </div>
                                 </li>
                                 <li class="media">
@@ -198,7 +215,7 @@ Note: If you would like to omit something on this list for any reason, please sp
 
             <!-- PROJECT CARDS :: to be filled with ElevenFifty Projects -->
 
-            <div class="projects">
+            <div id="projects">
                 <h2>projects</h2>
 
                 <div class="cardgrid">
@@ -209,7 +226,8 @@ Note: If you would like to omit something on this list for any reason, please sp
                                     <h5 class="card-title">static layout application</h5>
                                     <p class="card-text">recreation of the Star Wars website
                                     </p>
-                                    <a href="https://kenrgriggs.github.io/portfolio/staticlayout/"><img src="./assets/staticlayout.jpg" class="staticlayout"></a>
+                                    <a href="https://kenrgriggs.github.io/portfolio/staticlayout/" target="_blank"><img
+                                            src="./assets/staticlayout.jpg" class="staticlayout"></a>
                                     <!-- <a href="https://kenrgriggs.github.io/" class="btn btn-primary">Go somewhere</a> -->
                                 </div>
                             </div>
@@ -220,7 +238,8 @@ Note: If you would like to omit something on this list for any reason, please sp
                                     <h5 class="card-title">css creature</h5>
                                     <p class="card-text"> built creature using html, css, and javascript
                                     </p>
-                                    <a href="https://codepen.io/kenrgriggs/full/dyXQrLx"><img src="./assets/csscreature.jpg" class="staticlayout"></a>
+                                    <a href="https://codepen.io/kenrgriggs/full/dyXQrLx" target="_blank"><img
+                                            src="./assets/csscreature.jpg" class="staticlayout"></a>
                                 </div>
                             </div>
                         </div>
@@ -230,7 +249,8 @@ Note: If you would like to omit something on this list for any reason, please sp
                                     <h5 class="card-title">api project</h5>
                                     <p class="card-text">website that pulls info from SpaceX API
                                     </p>
-                                    <a href="https://kenrgriggs.github.io/portfolio/api-project/"><img src="./assets/apiproject.jpg" class="staticlayout"></a>
+                                    <a href="https://api-project-bceb6.web.app/" target="_blank"><img
+                                            src="./assets/apiproject.jpg" class="staticlayout"></a>
                                 </div>
                             </div>
                         </div>
@@ -243,7 +263,7 @@ Note: If you would like to omit something on this list for any reason, please sp
                                     <p class="card-text">With supporting text below as a natural lead-in to additional
                                         content.
                                     </p>
-                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                    <a href="#" target="_blank" class="btn btn-primary">Go somewhere</a>
                                 </div>
                             </div>
                         </div>
@@ -254,7 +274,7 @@ Note: If you would like to omit something on this list for any reason, please sp
                                     <p class="card-text">With supporting text below as a natural lead-in to additional
                                         content.
                                     </p>
-                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                    <a href="#" target="_blank" class="btn btn-primary">Go somewhere</a>
                                 </div>
                             </div>
                         </div>
@@ -265,30 +285,55 @@ Note: If you would like to omit something on this list for any reason, please sp
                                     <p class="card-text">With supporting text below as a natural lead-in to additional
                                         content.
                                     </p>
-                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                    <a href="#" target="_blank" class="btn btn-primary">Go somewhere</a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+            
+    <!-- CONTACT :: -->
+    <div id="contact">
+        <h2>contact me</h2>
+        <form action="" class="contactme">
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        
+            <label for="country">Country</label>
+            <select id="country" name="country">
+              <option value="usa">USA</option>
+              <option value="australia">Australia</option>
+              <option value="canada">Canada</option>
+            </select>
+        
+            <label for="subject">Subject</label>
+            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+        
+            <input type="submit" value="Submit">
+
+        </form>
+        <div id="social">
+            <a href="https://www.linkedin.com/in/kenrgriggs" id="linkedin">
+                <div class="linkedin">Linked In</div>
+            </a>
+            <a href="https://github.com/kenrgriggs" id="github">
+                <div class="github">GitHub</div>
+            </a>
+        </div>
+    </div>
         </div>
     </div>
 
 
 
-    <!-- FOOTER :: I think I need to just copy someone else's footer-->
+    <!-- FOOTER :: I think I need to just copy someone else's footer -->
 
     <footer>
         <div class="foot">
-            <div class="social">
-                <a href="https://www.linkedin.com/in/kenrgriggs" id="linkedin">
-                    <div class="linkedin">Linked In</div>
-                </a>
-                <a href="https://github.com/kenrgriggs" id ="github">
-                    <div class="github">GitHub</div>
-                </a>
-            </div>
             <div vclass="copyright">
                 <p>© 2020 Copyright: Kenneth Griggs</p>
             </div>
