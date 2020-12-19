@@ -76,7 +76,7 @@ Note: If you would like to omit something on this list for any reason, please sp
                 <a href="#social" class="headerlink"><h4 class="headertext">contact</h4></a>
             </div>
             <div class="headerdiv">
-                <a href="assets/resume_kgriggs13December2020.docx" class="headerlink"><h4 class="headertext" download>resume</h4></a>
+                <a href="assets/resume_kgriggs13December2020.pdf" class="headerlink"><h4 class="headertext" download>resume</h4></a>
             </div>
         </div>
     </header>
@@ -221,7 +221,7 @@ Note: If you would like to omit something on this list for any reason, please sp
                 <div class="cardgrid">
                     <div class="row justify-content-md-center">
                         <div class="col-sm-3">
-                            <div class="card text-white bg-dark mb-3">
+                            <div class="card text-dark bg-light mb-3">
                                 <div class="card-body">
                                     <h5 class="card-title">static layout application</h5>
                                     <p class="card-text">recreation of the Star Wars website
@@ -233,7 +233,7 @@ Note: If you would like to omit something on this list for any reason, please sp
                             </div>
                         </div>
                         <div class="col-sm-3">
-                            <div class="card text-white bg-dark mb-3">
+                            <div class="card text-dark bg-light mb-3">
                                 <div class="card-body">
                                     <h5 class="card-title">css creature</h5>
                                     <p class="card-text"> built creature using html, css, and javascript
@@ -244,7 +244,7 @@ Note: If you would like to omit something on this list for any reason, please sp
                             </div>
                         </div>
                         <div class="col-sm-3">
-                            <div class="card text-white bg-dark mb-3">
+                            <div class="card text-dark bg-light mb-3">
                                 <div class="card-body">
                                     <h5 class="card-title">api project</h5>
                                     <p class="card-text">website that pulls info from SpaceX API
@@ -257,7 +257,7 @@ Note: If you would like to omit something on this list for any reason, please sp
                     </div>
                     <div class="row justify-content-md-center">
                         <div class="col-sm-3">
-                            <div class="card text-white bg-dark mb-3">
+                            <div class="card text-dark bg-light mb-3">
                                 <div class="card-body">
                                     <h5 class="card-title">Special title treatment</h5>
                                     <p class="card-text">With supporting text below as a natural lead-in to additional
@@ -268,7 +268,7 @@ Note: If you would like to omit something on this list for any reason, please sp
                             </div>
                         </div>
                         <div class="col-sm-3">
-                            <div class="card text-white bg-dark mb-3">
+                            <div class="card text-dark bg-light mb-3">
                                 <div class="card-body">
                                     <h5 class="card-title">Special title treatment</h5>
                                     <p class="card-text">With supporting text below as a natural lead-in to additional
@@ -279,7 +279,7 @@ Note: If you would like to omit something on this list for any reason, please sp
                             </div>
                         </div>
                         <div class="col-sm-3">
-                            <div class="card text-white bg-dark mb-3">
+                            <div class="card text-dark bg-light mb-3">
                                 <div class="card-body">
                                     <h5 class="card-title">Special title treatment</h5>
                                     <p class="card-text">With supporting text below as a natural lead-in to additional
@@ -295,32 +295,18 @@ Note: If you would like to omit something on this list for any reason, please sp
             
     <!-- CONTACT :: -->
     <div id="contact">
-        <h2>contact me</h2>
-        <form action="" class="contactme">
-            <label for="fname">First Name</label>
-            <input type="text" id="fname" name="firstname" placeholder="Your name..">
-        
-            <label for="lname">Last Name</label>
-            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-        
-            <label for="country">Country</label>
-            <select id="country" name="country">
-              <option value="usa">USA</option>
-              <option value="australia">Australia</option>
-              <option value="canada">Canada</option>
-            </select>
-        
-            <label for="subject">Subject</label>
-            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-        
-            <input type="submit" value="Submit">
-
-        </form>
+        <h2>contact</h2>
+        <form action="https://formspree.io/f/mbjpzvbe" method="post" id="formid">
+            <input name="Name" class="input" type="name" placeholder="Name">
+            <input name="Email" class="input" type="email" placeholder="Email">
+            <textarea id="textarea" name="message" placeholder="Enter your message here."></textarea>
+            <button type="submit" id="submitbutton">Submit</button>
+          </form>
         <div id="social">
-            <a href="https://www.linkedin.com/in/kenrgriggs" id="linkedin">
+            <a href="https://www.linkedin.com/in/kenrgriggs" class="social">
                 <div class="linkedin">Linked In</div>
             </a>
-            <a href="https://github.com/kenrgriggs" id="github">
+            <a href="https://github.com/kenrgriggs" class="social">
                 <div class="github">GitHub</div>
             </a>
         </div>
